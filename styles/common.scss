@@ -17,10 +17,14 @@ html {
 }
 
 .left-nav > .nav-title {
-  font: 18px, Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Roboto-Flex", sans-serif;
+  font-size: 18px;
 }
 
 .right-nav a {
   text-decoration: none;
-  font: 12px, Roboto, Helvetica, Arial, sans-serif;
+  color: black;
+  font-family: "Roboto-Flex", sans-serif;
+  font-size: 12px;
+  margin-right: 20px;
 }
