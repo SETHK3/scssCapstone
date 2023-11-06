@@ -32,3 +32,14 @@
     justify-content: space-around;
   }
 }
+
+.main-section {
+  grid-area: 2/2/2/2;
+  @include flex-column-center;
+}
+
+.footer-wrapper {
+  grid-row-start: -1;
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
