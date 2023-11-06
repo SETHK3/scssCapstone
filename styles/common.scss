@@ -3,14 +3,24 @@ html {
   height: 100%;
   width: 100%;
   margin: 0;
-  background-color: rgb(32, 33, 37);
+  background-color: rgb(255, 255, 255);
 }
 
-a {
+.top-nav-bar a {
   text-decoration: none;
   color: white;
+  font: 13px Inter, sans-serif;
 
   &:hover {
-    text-decoration: underline;
+    color: blue;
   }
+}
+
+.left-nav > .nav-title {
+  font: 18px, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.right-nav a {
+  text-decoration: none;
+  font: 12px, Roboto, Helvetica, Arial, sans-serif;
 }
