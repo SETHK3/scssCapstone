@@ -1,19 +1,9 @@
 body,
 html {
-  height: 100%;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
   margin: 0;
   background-color: rgb(255, 255, 255);
-}
-
-.top-nav-bar a {
-  text-decoration: none;
-  color: white;
-  font: 13px Inter, sans-serif;
-
-  &:hover {
-    color: blue;
-  }
 }
 
 .left-nav > .nav-title {
@@ -27,4 +17,85 @@ html {
   font-family: "Roboto-Flex", sans-serif;
   font-size: 12px;
   margin-right: 20px;
+}
+
+.hero-container {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+.hero-text {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 25px;
+}
+
+.more-btn a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.values-header {
+  font-family: "Roboto Slab", serif;
+  font-size: 37px;
+}
+
+.values-sections-header {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+}
+
+.values-sections-header p {
+  font-size: 14px;
+  color: #999999;
+}
+
+.about-header {
+  font-family: "Roboto Slab", serif;
+  font-size: 37px;
+}
+
+.about-header p {
+  font-size: 18px;
+  color: #fefefe;
+}
+
+.blog-header {
+  font-family: "Roboto Slab", serif;
+  font-size: 37px;
+}
+
+#blog-header1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #89229b;
+}
+
+#blog-header2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #00bcd4;
+}
+
+#blog-header3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #ff4436;
+}
+
+.blog-sections h3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  color: #3c4858;
+}
+
+.blog-sections p {
+  font-size: 14px;
+  color: #999999;
 }

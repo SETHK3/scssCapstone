@@ -1,18 +1,9 @@
 body,
 html {
-  height: 100%;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
   margin: 0;
   background-color: rgb(255, 255, 255);
-}
-
-.top-nav-bar a {
-  text-decoration: none;
-  color: white;
-  font: 13px Inter, sans-serif;
-}
-.top-nav-bar a:hover {
-  color: blue;
 }
 
 .left-nav > .nav-title {
@@ -28,60 +19,89 @@ html {
   margin-right: 20px;
 }
 
+.hero-container {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+.hero-text {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 25px;
+}
+
+.more-btn a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.values-header {
+  font-family: "Roboto Slab", serif;
+  font-size: 37px;
+}
+
+.values-sections-header {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+}
+
+.values-sections-header p {
+  font-size: 14px;
+  color: #999999;
+}
+
+.about-header {
+  font-family: "Roboto Slab", serif;
+  font-size: 37px;
+}
+
+.about-header p {
+  font-size: 18px;
+  color: #fefefe;
+}
+
 .page-container {
   height: 100%;
   width: 100%;
-  display: block;
-}
-
-.top-nav-bar {
   display: flex;
-  position: absolute;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  background-color: #23282e;
-  width: 100%;
-  height: 20px;
-  margin-right: 10px;
-}
-
-.top-nav-label {
-  margin-right: 20px;
 }
 
 .nav-wrapper {
   display: flex;
-  position: absolute;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
   background-color: white;
   height: 10%;
-  margin: 20px 20px;
-  position: absolute;
   top: 0;
   width: 100%;
   z-index: 1;
   border: 1px solid red;
+  margin-bottom: 10%;
 }
 .nav-wrapper .left-nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
   justify-content: space-around;
   width: 15%;
 }
 .nav-wrapper .right-nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
   width: 20%;
   justify-content: space-between;
+  align-items: center;
   padding-right: 200px;
 }
 .nav-wrapper .nav-label-more {
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #e91e63;
   border-radius: 50% 50% 50% 50%;
   margin: 10px 10px;
@@ -89,10 +109,91 @@ html {
   text-align: center;
 }
 
-.hero-wrapper {
-  top: 0;
-  display: flex;
+.hero-container {
   width: 100%;
-  height: 50%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../images/clouds.jpg);
+  background-size: cover;
+}
+.hero-container .hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hero-container .hero-content .more-btn {
+  display: flex;
+  flex-direction: column;
+  background-color: #e91e63;
+  border-radius: 100% 100% 100% 100%;
+  margin: 10px 10px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
   border: 1px solid red;
+  border-radius: 25px;
+  width: 93%;
+  height: 70%;
+}
+.main-content .values-wrapper {
+  border: 1px solid red;
+  border-radius: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .values-wrapper .values-content-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.main-content .values-wrapper .values-content-wrapper .values-sections-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 80%;
+}
+.main-content .about-wrapper {
+  border: 1px solid red;
+  border-radius: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .blog-wrapper {
+  border: 1px solid red;
+  border-radius: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .blog-wrapper .blog-content-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.main-content .blog-wrapper .blog-content-wrapper .blog-sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 80%;
 }/*# sourceMappingURL=index.css.map */
