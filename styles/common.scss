@@ -19,6 +19,15 @@ html {
   margin-right: 20px;
 }
 
+.right-nav > .nav-label-more {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto-Flex", sans-serif;
+  font-size: 12px;
+  margin-right: 20px;
+  // box-shadow: -2px -4px 24px 0px rgba(233, 30, 99, 0.5);
+}
+
 .hero-container {
   text-decoration: none;
   color: white;
@@ -37,8 +46,18 @@ html {
 .more-btn a {
   text-decoration: none;
   color: white;
+}
+
+.more-btn {
+  text-decoration: none;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
+
+  &:hover {
+    // color: white;
+    box-shadow: -2px -4px 24px 0px rgba(233, 30, 99, 0.5);
+  }
 }
 
 .values-header {
