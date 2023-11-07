@@ -20,7 +20,7 @@
   top: 0;
   width: 100%;
   z-index: 1;
-  border: 1px solid red;
+  // border: 1px solid red;
   margin-bottom: 10%;
 
   .left-nav {
@@ -82,14 +82,14 @@
   justify-content: space-between;
   align-items: center;
   z-index: 1;
-  border: 1px solid red;
-  border-radius: 25px;
+  // border: 1px solid red;
+  // border-radius: 25px;
   width: 93%;
   height: 70%;
 
   .values-wrapper {
-    border: 1px solid red;
-    border-radius: 25px;
+    // border: 1px solid red;
+    // border-radius: 25px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -112,18 +112,40 @@
   }
 
   .about-wrapper {
-    border: 1px solid red;
-    border-radius: 25px;
+    // border: 1px solid red;
+    // border-radius: 25px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+      url(../images/new-yc-img.jpeg);
+
+    .about-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-left: 50px;
+      width: 100%;
+      text-wrap: wrap;
+    }
+
+    .about-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+      width: 100%;
+      padding-right: 40px;
+      padding-bottom: 50px;
+    }
   }
 
   .blog-wrapper {
-    border: 1px solid red;
-    border-radius: 25px;
+    // border: 1px solid red;
+    // border-radius: 25px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -143,5 +165,49 @@
         max-width: 80%;
       }
     }
+  }
+
+  .contact-wrapper {
+    // border: 1px solid red;
+    // border-radius: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+      url(../images/nyc-aerial.jpeg);
+
+    .contact-content-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-left: 50px;
+    }
+  }
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #323437;
+
+  .footer-left {
+    display: flex;
+    // flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 600px;
+  }
+
+  .footer-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
   }
 }
