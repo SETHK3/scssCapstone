@@ -1,0 +1,39 @@
+body,
+html {
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.left-nav > .nav-title {
+  font-family: "Roboto-Flex", sans-serif;
+  font-size: 18px;
+}
+
+.right-nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto-Flex", sans-serif;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.right-nav > .nav-label-more {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto-Flex", sans-serif;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.hero-container {
+  text-decoration: none;
+  color: white;
+}
+
+.content-header {
+  font-family: "Roboto Slab", serif;
+  font-size: 37px;
+  color: #3c4858;
+}

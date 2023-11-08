@@ -1,0 +1,132 @@
+body,
+html {
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.left-nav > .nav-title {
+  font-family: "Roboto-Flex", sans-serif;
+  font-size: 18px;
+}
+
+.right-nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto-Flex", sans-serif;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.right-nav > .nav-label-more {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto-Flex", sans-serif;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.hero-container {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+}
+
+.more-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.more-btn {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+
+  &:hover {
+    // color: white;
+    box-shadow: -2px -4px 24px 0px rgba(233, 30, 99, 0.5);
+  }
+}
+
+.uncat-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #89229b;
+}
+
+.uncat-header2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #18bfd6;
+}
+
+.uncat-header3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #f44639;
+}
+
+.uncat-header4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #ffa93b;
+}
+
+.uncat-header5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #ed487f;
+}
+
+.uncat-header6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #8ccc8f;
+}
+
+.uncat-header7 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #8f2da0;
+}
+
+.title-header {
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+}
+
+.content-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #999999;
+}
+
+.post-tag {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #3c4858;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+
+  &:hover {
+    color: #4d4e4e;
+  }
+}
+
+.copyright {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
