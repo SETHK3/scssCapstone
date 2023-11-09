@@ -160,8 +160,7 @@ html {
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
 }
-
-.nav-wrapper {
+.page-container .nav-wrapper {
   display: flex;
   position: fixed;
   justify-content: space-between;
@@ -173,19 +172,19 @@ html {
   z-index: 1;
   margin-bottom: 10%;
 }
-.nav-wrapper .left-nav {
+.page-container .nav-wrapper .left-nav {
   display: flex;
   justify-content: space-around;
   width: 15%;
 }
-.nav-wrapper .right-nav {
+.page-container .nav-wrapper .right-nav {
   display: flex;
   width: 20%;
   justify-content: space-between;
   align-items: center;
   padding-right: 200px;
 }
-.nav-wrapper .nav-label-more a {
+.page-container .nav-wrapper .nav-label-more a {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -196,8 +195,7 @@ html {
   padding: 20px 20px 20px 20px;
   text-align: center;
 }
-
-.hero-container {
+.page-container .hero-container {
   width: 100%;
   height: 500px;
   display: flex;
@@ -207,13 +205,13 @@ html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../images/pink-gradient-img.jpeg);
   background-size: cover;
 }
-.hero-container .hero-content {
+.page-container .hero-container .hero-content {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-.hero-container .hero-content .more-btn {
+.page-container .hero-container .hero-content .more-btn {
   display: flex;
   flex-direction: column;
   background-color: #e91e63;
@@ -222,8 +220,7 @@ html {
   padding: 20px 20px 20px 20px;
   text-align: center;
 }
-
-.main-container {
+.page-container .main-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -236,7 +233,22 @@ html {
   border-radius: 5px;
   box-shadow: -2px -4px 24px 0px rgba(0, 0, 0, 0.5);
 }
-.main-container .section-1 {
+.page-container .main-container .section {
+  padding-top: 30px;
+}
+.page-container .main-container .title-header p {
+  margin: 0;
+}
+.page-container .main-container .section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 50px;
+  text-wrap: wrap;
+  width: 70%;
+}
+.page-container .main-container .section-1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -245,68 +257,17 @@ html {
   padding-top: 60px;
   width: 70%;
 }
-.main-container .section-2 {
+.page-container .main-container .section-7 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-left: 50px;
-  text-wrap: wrap;
-  width: 70%;
-}
-.main-container .section-3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-left: 300px;
-  padding-left: 50px;
-  text-wrap: wrap;
-  width: 70%;
-}
-.main-container .section-4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-left: 300px;
-  padding-left: 50px;
-  text-wrap: wrap;
-  width: 70%;
-}
-.main-container .section-5 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-left: 300px;
-  padding-left: 50px;
-  text-wrap: wrap;
-  width: 70%;
-}
-.main-container .section-6 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-left: 300px;
-  padding-left: 50px;
-  text-wrap: wrap;
-  width: 70%;
-}
-.main-container .section-7 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-left: 300px;
   padding-left: 50px;
   text-wrap: wrap;
   width: 70%;
   padding-bottom: 60px;
 }
-
-.footer-wrapper {
+.page-container .footer-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -314,13 +275,13 @@ html {
   width: 100%;
   background-color: #323437;
 }
-.footer-wrapper .footer-left {
+.page-container .footer-wrapper .footer-left {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-right: 600px;
 }
-.footer-wrapper .footer-right {
+.page-container .footer-wrapper .footer-right {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
