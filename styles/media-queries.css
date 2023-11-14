@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+  .page-container {
+    flex-direction: column;
+  }
+
+  .nav-wrapper {
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    justify-content: space-around;
+  }
+
+  .footer-wrapper {
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-content {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
